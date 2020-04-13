@@ -1,0 +1,38 @@
+body{
+    background-color: #FFF8DC;
+    border: palevioletred;
+}
+
+.container{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    grid-template-columns: 30px repeat(7, fr);
+    grid-template-rows: 70px 400px 1fr;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "sd sd main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+}
+
+.box{
+    border: 1px solid red;
+    background: #FF4500;
+    margin: auto;
+    text-align: left;
+}
+
+.header{
+    grid-area: hd;
+}
+
+.content{
+    grid-area: auto;
+    background-image: url("https://marriedwiki.com/uploads/bio/2015/09/02/thumb/wade-macneil-260-260.jpeg");
+    background-size: contain;
+}
+
+.footer{
+    grid-area: ft;
+}
