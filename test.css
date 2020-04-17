@@ -24,12 +24,13 @@ body{
 
 .img {
     background-color: #aaa;
-    width: min-content;
+    width:fit-content;
     padding: 20px;
 }
 
 .card{
     background-color: white;
+    justify-content: space-evenly;
     padding: 20px;
     margin-top: 20px;
     display: grid;
@@ -45,6 +46,7 @@ body{
     text-align: center;
     background: #aaa;
     margin-top: 20px;
+    grid-area: footer;
 }
 
 @media screen (max-width: 800px){
@@ -52,4 +54,26 @@ body{
         width: 100%;
         padding: 0;
     }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
 }
