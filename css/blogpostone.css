@@ -1,0 +1,37 @@
+.butter{
+    text-align: center;
+    padding: 20px;
+    background: white;
+    color: black;
+    text-decoration: underline;
+}
+
+quote{
+    text-transform: capitalize;
+    text-decoration: wavy;
+    border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+body{
+    font-family: arial;
+    padding: 20px;
+    background: #2F4F4F;
+    color: wheat;
+}
+
+.wrapper{
+    border: 20px solid rgb(250,235,215);
+    padding: 30px;
+
+}
+
+a.button{
+    appearance: button;
+    color: rgb(255,105,180);
+    background: rgb(240, 252, 255);
+}
+
+a.button:hover{
+    opacity: 0.7;
+}
