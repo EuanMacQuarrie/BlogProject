@@ -14,10 +14,12 @@ quote{
 }
 
 body{
+    
     font-family: arial;
     padding: 20px;
     background: #2F4F4F;
     color: wheat;
+    grid-area: flex;
 }
 
 .wrapper{
